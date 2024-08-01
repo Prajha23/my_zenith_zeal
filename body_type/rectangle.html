@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rectangle Body Type - Shop Your Shape</title>
+    
+</head>
+<style>
+    
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: url('hero-rectangle.jpg') center/cover no-repeat;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff4081;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btn:hover {
+    background-color: #e7326b;
+}
+
+
+.style-tips {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center; 
+}
+
+.style-tips h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.style-tips ul {
+    list-style-type: disc;
+    margin: 0 auto;
+    padding-left: 20px;
+    color: #555;
+    text-align: left; 
+    max-width: 800px;
+}
+.style-tips li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+
+.featured-products {
+    padding: 40px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.product {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.product h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #ff4081;
+}
+
+.product .btn {
+    margin-top: 10px;
+}
+
+
+
+</style>
+<body>
+
+    
+    <section class="hero">
+        
+        <div class="hero-content">
+            <h1>Rectangle Body Type</h1>
+            <p>Discover your perfect fit and style that adds curves and defines your waist.</p>
+            <a href="#featured-products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+   
+    <section class="style-tips">
+        <h2>Styling Tips for Rectangle Body Type</h2>
+        <ul>
+            <li>Choose tops with ruffles, embellishments, or peplum to add volume.</li>
+            <li>Opt for A-line and wrap dresses to create the illusion of a defined waist.</li>
+            <li>High-waisted pants and skirts that flare out slightly add shape.</li>
+            <li>Use belts to emphasize your waist and add curves.</li>
+        </ul>
+    </section>
+
+    
+    <section id="featured-products" class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Wrap Dress</h3>
+                <p>$49.99</p>
+                <a href="product-details.html" class="btn">View Details</a>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <h3>Peplum Top</h3>
+                <p>$29.99</p>
+                <a href="product-details.html" class="btn">View Details</a>
+            </div>
+           
+        </div>
+    </section>
+
+</body>
+</html>
